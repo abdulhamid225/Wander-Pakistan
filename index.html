@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Discover Pakistan with Wander Pakistan — destination inspiration, thoughtful travel itineraries, and unforgettable local experiences.">
+  <meta name="theme-color" content="#174a3a">
+  <title>Wander Pakistan — Beyond Imagination</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement">YOUR NEXT ADVENTURE STARTS HERE. <span aria-hidden="true">✦</span> DISCOVER PAKISTAN</div>
+  <header class="site-header">
+    <div class="nav-wrap container">
+      <a class="brand" href="#home" aria-label="Wander Pakistan home">
+        <span class="brand-mark" aria-hidden="true">W<span>✦</span></span>
+        <span class="brand-copy">WANDER <b>PAKISTAN</b><small>FIND YOUR WILD</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"
+        aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#destinations">Destinations</a><a href="#featured">Northern Areas</a><a
+          href="#experiences">Experiences</a><a href="#packages">Packages</a><a href="#about">About</a><a
+          href="#contact">Contact</a>
+        <a class="button button-small button-dark nav-cta" href="#trip-planner">Plan Your Trip <span
+            aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <a class="brand-sticker" href="#home" aria-label="Wander Pakistan — back to top">
+    <span class="sticker-ring">DISCOVER · RESPECT · WANDER ·</span>
+    <span class="sticker-main">WP</span>
+    <span class="sticker-bottom">PAKISTAN</span>
+  </a>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Dramatic mountain peaks and a turquoise lake in northern Pakistan">
+      </div>
+      <div class="hero-shade"></div>
+      <div class="hero-content container">
+        <p class="eyebrow eyebrow-light"><span></span> A LAND OF EXTRAORDINARY CONTRASTS</p>
+        <h1 id="hero-title">PAKISTAN,<br><em>BEYOND</em> IMAGINATION.</h1>
+        <p class="hero-intro">Discover breathtaking landscapes, hidden valleys, rich heritage, and unforgettable
+          adventures.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#destinations">Explore Destinations
+            <span>↗</span></a><a class="text-link light-link" href="#trip-planner">Plan your journey <span>→</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span>From the high Karakoram to the Arabian Sea</span>
+        </div>
+      </div>
+      <div class="hero-side-label">35°55′ N — 76°30′ E <span>PAKISTAN</span></div>
+      <div class="hero-carousel-controls" aria-label="Hero image carousel controls">
+        <button class="hero-carousel-arrow hero-prev" type="button" aria-label="Previous hero image">‹</button>
+        <div class="hero-carousel-dots" role="group" aria-label="Choose hero image">
+          <button class="hero-dot active" type="button" data-hero-slide="0" aria-label="Show Hunza Valley"
+            aria-pressed="true"></button>
+          <button class="hero-dot" type="button" data-hero-slide="1" aria-label="Show mountain lake"
+            aria-pressed="false"></button>
+          <button class="hero-dot" type="button" data-hero-slide="2" aria-label="Show Pakistan coastline"
+            aria-pressed="false"></button>
+        </div>
+        <span class="hero-slide-count"><b id="hero-slide-current">01</b> / 03</span>
+        <button class="hero-carousel-arrow hero-next" type="button" aria-label="Next hero image">›</button>
+      </div>
+    </section>
+
+    <section class="search-section container" id="trip-planner" aria-label="Plan your trip">
+      <form class="travel-search" id="travel-search">
+        <div class="search-field"><label for="search-destination">Where to?</label>
+          <div class="field-control"><span aria-hidden="true">⌖</span><input id="search-destination" name="destination"
+              type="text" placeholder="Try Hunza, Skardu..." autocomplete="off"></div>
+        </div>
+        <div class="search-field"><label for="travel-date">When are you going?</label>
+          <div class="field-control"><span aria-hidden="true">▦</span><input id="travel-date" name="date" type="date">
+          </div>
+        </div>
+        <div class="search-field"><label for="travelers">Travelers</label>
+          <div class="field-control"><span aria-hidden="true">♧</span><select id="travelers" name="travelers">
+              <option value="1">1 traveler</option>
+              <option value="2" selected>2 travelers</option>
+              <option value="3">3 travelers</option>
+              <option value="4">4 travelers</option>
+              <option value="5">5 travelers</option>
+              <option value="6">6+ travelers</option>
+            </select></div>
+        </div>
+        <button class="button button-dark search-submit" type="submit"><span>Find inspiration</span><span
+            aria-hidden="true">↗</span></button>
+      </form>
+      <p class="form-feedback" id="search-feedback" aria-live="polite"></p>
+    </section>
+
+    <section class="section container" id="destinations">
+      <div class="section-heading heading-row">
+        <div>
+          <p class="eyebrow"><span></span> THE PLACES THAT STAY WITH YOU</p>
+          <h2>Find your <em>somewhere.</em></h2>
+        </div>
+        <p class="heading-copy">From snow-dusted peaks to ancient cities, every corner of Pakistan tells a different
+          story.</p>
+      </div>
+      <div class="destination-tools">
+        <label class="destination-search"><span aria-hidden="true">⌕</span><input id="destination-filter" type="search"
+            placeholder="Search places or regions..." aria-label="Search destinations"></label>
+        <div class="category-pills" id="destination-categories" aria-label="Filter destinations by category">
+          <button class="pill active" type="button" data-category="all" aria-pressed="true">All places</button>
+          <button class="pill" type="button" data-category="mountains" aria-pressed="false">Mountains</button>
+          <button class="pill" type="button" data-category="lakes" aria-pressed="false">Lakes & valleys</button>
+          <button class="pill" type="button" data-category="culture" aria-pressed="false">Heritage</button>
+          <button class="pill" type="button" data-category="coast" aria-pressed="false">Coast & wildlife</button>
+        </div>
+      </div>
+      <div class="destination-grid" id="destination-grid"></div>
+      <p class="empty-state" id="destination-empty" hidden>No destinations match your search. Try another place or
+        category.</p>
+      <div class="center-action"><a class="text-link dark-link" href="#packages">Explore journeys by region
+          <span>→</span></a></div>
+    </section>
+
+    <section class="category-section">
+      <div class="container">
+        <div class="section-heading heading-row inverse-heading">
+          <div>
+            <p class="eyebrow eyebrow-light"><span></span> FOLLOW YOUR CURIOSITY</p>
+            <h2>What moves <em>you?</em></h2>
+          </div>
+          <p class="heading-copy">Choose a feeling, a landscape, or a story. Your next adventure starts with a little
+            curiosity.</p>
+        </div>
+        <div class="experience-categories">
+          <button class="category-card" type="button" data-category="mountains"><span
+              class="category-icon">⌁</span><span><b>Mountain Escapes</b><small>High peaks, bigger
+                feelings</small></span><span class="category-arrow">↗</span></button>
+          <button class="category-card" type="button" data-category="lakes"><span
+              class="category-icon">≈</span><span><b>Lakes & Valleys</b><small>Slow down by the
+                water</small></span><span class="category-arrow">↗</span></button>
+          <button class="category-card" type="button" data-category="road"><span
+              class="category-icon">↗</span><span><b>Scenic Road Trips</b><small>The long way is the best
+                way</small></span><span class="category-arrow">↗</span></button>
+          <button class="category-card" type="button" data-category="culture"><span
+              class="category-icon">⌂</span><span><b>Cultural Heritage</b><small>Stories carved in
+                time</small></span><span class="category-arrow">↗</span></button>
+          <button class="category-card" type="button" data-category="coast"><span
+              class="category-icon">⌇</span><span><b>Coastal Adventures</b><small>Where land meets
+                sea</small></span><span class="category-arrow">↗</span></button>
+          <button class="category-card" type="button" data-category="wildlife"><span
+              class="category-icon">✳</span><span><b>Wildlife & Wilderness</b><small>Find your wilder
+                side</small></span><span class="category-arrow">↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-section container" id="featured">
+      <div class="featured-photo"><img src="images/hunza-valley.webp" alt="Mountain landscape in Hunza region"
+          loading="lazy"><span class="photo-stamp">THE NORTH<br><b>CALLING</b></span><span class="photo-caption">HUNZA
+          VALLEY · GILGIT-BALTISTAN</span></div>
+      <div class="featured-copy">
+        <p class="eyebrow"><span></span> OUR EDITOR'S PICK</p>
+        <h2>Meet the magic<br>of <em>Hunza.</em></h2>
+        <p class="featured-lead">A place where the mountains touch the sky, apricot orchards paint the valleys, and
+          every turn reveals another reason to stay a little longer.</p>
+        <div class="feature-facts">
+          <div><span>BEST FOR</span><b>Scenery & culture</b></div>
+          <div><span>SUGGESTED STAY</span><b>4–6 days</b></div>
+          <div><span>DON'T MISS</span><b>Altit & Baltit Forts</b></div>
+        </div>
+        <h3>Make room for wonder</h3>
+        <ul class="activity-list">
+          <li>Watch sunrise over Rakaposhi</li>
+          <li>Wander the lanes of Karimabad</li>
+          <li>See the blue waters of Attabad Lake</li>
+        </ul>
+        <button class="button button-dark" type="button" data-open-destination="hunza">Explore Hunza
+          <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="section packages-section" id="packages">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="eyebrow"><span></span> JOURNEYS WORTH TAKING</p>
+            <h2>Made for the <em>memories.</em></h2>
+          </div>
+          <p class="heading-copy">Thoughtful sample itineraries to help you picture the possibilities. Make them your
+            own.</p>
+        </div>
+        <div class="package-controls">
+          <label>Region <select id="package-region">
+              <option value="all">All regions</option>
+              <option value="north">Northern Pakistan</option>
+              <option value="kpk">Khyber Pakhtunkhwa</option>
+              <option value="punjab">Punjab</option>
+              <option value="balochistan">Balochistan</option>
+              <option value="azad">Azad Jammu & Kashmir</option>
+            </select></label>
+          <label>Duration <select id="package-duration">
+              <option value="all">Any duration</option>
+              <option value="short">1–4 days</option>
+              <option value="medium">5–7 days</option>
+              <option value="long">8+ days</option>
+            </select></label>
+          <label>Budget <select id="package-budget">
+              <option value="all">Any budget</option>
+              <option value="low">Under PKR 30,000</option>
+              <option value="mid">PKR 30,000–60,000</option>
+              <option value="high">Over PKR 60,000</option>
+            </select></label>
+          <label>Sort by <select id="package-sort">
+              <option value="featured">Featured</option>
+              <option value="low-high">Price: low to high</option>
+              <option value="high-low">Price: high to low</option>
+            </select></label>
+        </div>
+        <p class="price-note">Sample prices are illustrative planning estimates per person, not live offers. Actual
+          costs vary by season, transport, group size, and accommodation.</p>
+        <div class="package-grid" id="package-grid"></div>
+        <p class="empty-state" id="package-empty" hidden>No packages match those filters. Adjust your budget or
+          duration.</p>
+      </div>
+    </section>
+
+    <section class="section experiences-section" id="experiences">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="eyebrow"><span></span> GO BEYOND THE POSTCARD</p>
+            <h2>Feel the place, <em>not just see it.</em></h2>
+          </div><a class="text-link dark-link" href="#travel-gallery">See the gallery <span>→</span></a>
+        </div>
+        <div class="experience-grid">
+          <article class="experience-tile exp-large"><img
+              src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1100&q=80"
+              alt="Sunlight breaking across rugged mountain peaks" loading="lazy">
+            <div class="tile-overlay"><span>01 / OUTDOORS</span>
+              <h3>First light<br>on the mountains</h3>
+              <p>Let the quiet do the talking.</p>
+            </div>
+          </article>
+          <article class="experience-tile"><img src="images/mohenjo-daro.png.webp" alt="Historic stone architecture"
+              loading="lazy">
+            <div class="tile-overlay"><span>02 / HERITAGE</span>
+              <h3>History in every stone</h3>
+              <p>Explore forts, shrines, and old cities.</p>
+            </div>
+          </article>
+          <article class="experience-tile"><img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+              alt="Winding road through a green landscape" loading="lazy">
+            <div class="tile-overlay"><span>03 / THE OPEN ROAD</span>
+              <h3>Take the scenic route</h3>
+              <p>Leave room for unexpected stops.</p>
+            </div>
+          </article>
+          <article class="experience-tile"><img
+              src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80"
+              alt="Still alpine lake reflecting mountain slopes" loading="lazy">
+            <div class="tile-overlay"><span>04 / SLOW TRAVEL</span>
+              <h3>Find your still water</h3>
+              <p>Alpine lakes made for lingering.</p>
+            </div>
+          </article>
+          <article class="experience-tile"><img
+              src="https://images.unsplash.com/photo-1567157577867-05ccb1388e66?auto=format&fit=crop&w=800&q=80"
+              alt="Traditional architecture and bustling street" loading="lazy">
+            <div class="tile-overlay"><span>05 / CITY STORIES</span>
+              <h3>Lahore, layered in time</h3>
+              <p>Food, architecture, and living heritage.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="travel-gallery">
+      <div class="container">
+        <div class="section-heading heading-row inverse-heading">
+          <div>
+            <p class="eyebrow eyebrow-light"><span></span> A LITTLE WINDOW INTO PAKISTAN</p>
+            <h2>Scenes to <em>save.</em></h2>
+          </div>
+          <p class="heading-copy">A country of big skies, ancient stories, and landscapes that are hard to put into
+            words.</p>
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+          <button class="gallery-item gallery-tall" type="button" data-gallery="0"
+            aria-label="View mountain range photograph"><img
+              src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80"
+              alt="Snowy mountain range" loading="lazy"><span>THE HIGH NORTH ↗</span></button>
+          <button class="gallery-item" type="button" data-gallery="1" aria-label="View turquoise lake photograph"><img
+              src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80"
+              alt="Mountain lake and forest" loading="lazy"><span>STILL WATERS ↗</span></button>
+          <button class="gallery-item" type="button" data-gallery="2"
+            aria-label="View historic architecture photograph"><img src="images/mohenjo-daro.png.webp"
+              alt="Historic architecture" loading="lazy"><span>OLD SOULS ↗</span></button>
+          <button class="gallery-item" type="button" data-gallery="3" aria-label="View coastal scenery photograph"><img
+              src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=80"
+              alt="Waves washing onto a shore" loading="lazy"><span>THE COASTLINE ↗</span></button>
+          <button class="gallery-item" type="button" data-gallery="4" aria-label="View lush valley photograph"><img
+              src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=800&q=80"
+              alt="Green valley beneath distant mountains" loading="lazy"><span>GREEN HORIZONS ↗</span></button>
+        </div>
+        <p class="gallery-disclaimer">Photography is used for visual inspiration; some images are representative
+          landscapes and may not depict the exact named location.</p>
+      </div>
+    </section>
+
+    <section class="section container why-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow"><span></span> GOOD TRAVEL STARTS WITH GOOD THINKING</p>
+        <h2>More wonder.<br><em>Less guesswork.</em></h2>
+      </div>
+      <div class="why-grid">
+        <article><span class="why-number">01</span>
+          <div class="why-icon">✳</div>
+          <h3>Find your next place</h3>
+          <p>Discover places beyond the usual shortlist, from iconic mountain valleys to lesser-known cultural gems.</p>
+        </article>
+        <article><span class="why-number">02</span>
+          <div class="why-icon">⌁</div>
+          <h3>Travel within your budget</h3>
+          <p>Use sample itineraries and planning estimates to start shaping a trip that feels right for you.</p>
+        </article>
+        <article><span class="why-number">03</span>
+          <div class="why-icon">⌂</div>
+          <h3>Meet local culture</h3>
+          <p>Make space for regional food, local crafts, historic places, and the people who give destinations their
+            spirit.</p>
+        </article>
+        <article><span class="why-number">04</span>
+          <div class="why-icon">↗</div>
+          <h3>Your trip, your pace</h3>
+          <p>Build a journey around your interests, travel companions, comfort level, and available time.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tips-section">
+      <div class="container tips-layout">
+        <div class="tips-intro">
+          <p class="eyebrow eyebrow-light"><span></span> A FEW THINGS TO KNOW</p>
+          <h2>Travel well.<br><em>Leave gently.</em></h2>
+          <p>A little preparation can make a big difference. Keep these basics in mind before heading out.</p><a
+            class="text-link light-link" href="#trip-planner">Start planning <span>→</span></a>
+        </div>
+        <div class="tips-list">
+          <details open>
+            <summary><span>01</span> Pick the right season <b>+</b></summary>
+            <p>Northern routes can be seasonal, with snow and closures in colder months. Coastal and southern
+              destinations have different heat and rainfall patterns. Check local guidance before departure.</p>
+          </details>
+          <details>
+            <summary><span>02</span> Pack in layers <b>+</b></summary>
+            <p>Mountain weather can change quickly. Bring layers, comfortable footwear, sun protection, water, and any
+              personal medication you need.</p>
+          </details>
+          <details>
+            <summary><span>03</span> Respect local customs <b>+</b></summary>
+            <p>Dress thoughtfully, ask before photographing people, follow site rules, and be considerate around
+              religious and community spaces.</p>
+          </details>
+          <details>
+            <summary><span>04</span> Take altitude seriously <b>+</b></summary>
+            <p>Give yourself time to acclimatize at high elevations. If you feel unwell at altitude, stop ascending and
+              seek local medical advice.</p>
+          </details>
+          <details>
+            <summary><span>05</span> Plan for the road <b>+</b></summary>
+            <p>Road conditions, access, and travel times can change. Verify conditions with local authorities or trusted
+              operators shortly before you go, and keep flexible plans.</p>
+          </details>
+          <details>
+            <summary><span>06</span> Leave no trace <b>+</b></summary>
+            <p>Carry out your rubbish, avoid disturbing wildlife, stay on established paths, and support local
+              businesses and guides where possible.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container testimonials-section">
+      <div class="section-heading heading-row">
+        <div>
+          <p class="eyebrow"><span></span> STORIES FROM THE ROAD</p>
+          <h2>Little moments, <em>big memories.</em></h2>
+        </div>
+        <p class="heading-copy">Illustrative sample testimonials showing the kind of experiences travelers might share.
+        </p>
+      </div>
+      <div class="testimonial-grid">
+        <article class="testimonial">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>“Hunza felt like stepping into a different rhythm. The mountain views were incredible, but the
+            quiet mornings were what I brought home.”</blockquote>
+          <div class="reviewer"><span class="avatar">SA</span><span><b>Sana A.</b><small>Sample traveler · Hunza
+                Valley</small></span><span class="review-mark">“</span></div>
+        </article>
+        <article class="testimonial">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>“Skardu was full of surprises. Having a flexible outline helped us slow down, explore, and enjoy
+            the journey instead of rushing through it.”</blockquote>
+          <div class="reviewer"><span class="avatar avatar-gold">HM</span><span><b>Hassan M.</b><small>Sample traveler ·
+                Skardu</small></span><span class="review-mark">“</span></div>
+        </article>
+        <article class="testimonial">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote>“The history, food, and color of Lahore made the whole trip feel alive. I left with a camera full
+            of photos and a long list of places to revisit.”</blockquote>
+          <div class="reviewer"><span class="avatar avatar-blue">AR</span><span><b>Ayesha R.</b><small>Sample traveler ·
+                Lahore</small></span><span class="review-mark">“</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter-section" id="contact">
+      <div class="newsletter-inner container">
+        <div>
+          <p class="eyebrow eyebrow-light"><span></span> NOTES FROM THE ROAD</p>
+          <h2>A little more <em>wonder</em><br>in your inbox.</h2>
+          <p>Get destination inspiration, seasonal planning ideas, and stories from around Pakistan.</p>
+        </div>
+        <form class="newsletter-form" id="newsletter-form" novalidate><label for="newsletter-email">Your email
+            address</label>
+          <div class="newsletter-input"><input id="newsletter-email" type="email" placeholder="you@example.com"
+              autocomplete="email" required><button class="button button-gold" type="submit">Count me in
+              <span>↗</span></button></div>
+          <p id="newsletter-feedback" class="newsletter-feedback" aria-live="polite">No spam. Just travel inspiration.
+            Demo form only — subscriptions are not stored.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand"><a class="brand brand-footer" href="#home"><span
+            class="brand-mark">W<span>✦</span></span><span class="brand-copy">WANDER <b>PAKISTAN</b><small>FIND YOUR
+              WILD</small></span></a>
+        <p>Thoughtful inspiration for discovering the extraordinary places, people, and stories of Pakistan.</p>
+        <div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"
+            aria-label="Instagram">ig</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"
+            aria-label="Facebook">f</a><a href="https://www.youtube.com/" target="_blank" rel="noreferrer"
+            aria-label="YouTube">▶</a></div>
+      </div>
+      <div class="footer-links">
+        <h3>Explore</h3><a href="#destinations">Destinations</a><a href="#featured">Northern Areas</a><a
+          href="#experiences">Experiences</a><a href="#packages">Travel Packages</a>
+      </div>
+      <div class="footer-links">
+        <h3>Get inspired</h3><a href="#travel-gallery">Travel Gallery</a><a href="#about">Why Wander</a><a
+          href="#packages">Plan a Journey</a><a href="#contact">Newsletter</a>
+      </div>
+      <div class="footer-links">
+        <h3>Good to know</h3><a href="#travel-tips" id="tips-footer-link">Travel Tips</a><a href="#privacy"
+          data-legal="privacy">Privacy Policy</a><a href="#terms" data-legal="terms">Terms of Use</a><a
+          href="mailto:hello@wanderpakistan.example">Contact us</a>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> WANDER PAKISTAN. MADE FOR THE
+        CURIOUS.</span><span>Explore responsibly. Respect every place.</span></div>
+  </footer>
+
+  <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="dialog-title"><button class="dialog-close"
+      type="button" aria-label="Close details">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+  <dialog class="lightbox-dialog" id="lightbox-dialog" aria-label="Photo gallery lightbox"><button
+      class="dialog-close lightbox-close" type="button" aria-label="Close gallery">×</button><button
+      class="lightbox-arrow lightbox-prev" type="button" aria-label="Previous image">‹</button>
+    <figure><img id="lightbox-image" src="" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure><button class="lightbox-arrow lightbox-next" type="button" aria-label="Next image">›</button>
+    <p class="lightbox-counter" id="lightbox-counter"></p>
+  </dialog>
+  <dialog class="legal-dialog" id="legal-dialog"><button class="dialog-close" type="button"
+      aria-label="Close">×</button>
+    <div id="legal-content"></div>
+  </dialog>
+</body>
+
+</html>
